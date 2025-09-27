@@ -1,13 +1,13 @@
-# HH-Former for Wheat Leaf Disease Classification
+# VWLM-for-Wheat-Disease-Identification 
 
-> 官方 PyTorch 实现 | 论文处于投刊阶段，标题：《Hierarchical Hybrid Attention Transformer for Wheat Leaf Disease Classification》  
+> 官方 PyTorch 实现 | 论文处于投刊阶段，标题：《VWLM: A Novel and High Accuracy Deep Learning model for Wheat Disease Identification 》  
 > 提出分层混合注意力Transformer（HH-Former）模型，实现小麦叶片常见病害与健康叶片的高精度分类，辅助农业病害快速诊断。
 
 
 ## 1. 研究背景与模型定位
 小麦作为全球核心粮食作物，其叶片病害（如白粉病、条锈病、叶锈病）易导致光合效率骤降、产量损失达10%-30%，传统人工检测存在耗时久、主观性强、田间覆盖范围有限的问题。  
 
-本文提出**分层混合注意力Transformer（HH-Former）**，通过创新的注意力机制融合与分层金字塔结构，解决小麦叶片病害“局部病灶特征模糊（如早期微小锈孢子堆）、全局纹理建模效率低、相似病害区分难”的核心问题，最终在自建小麦叶片病害数据集（WPLDD）上实现99.93%的分类准确率，为小麦病害田间自动化诊断提供高效、可靠的技术方案。
+本文提出**分层混合注意力Transformer（VWLM）**，通过创新的注意力机制融合与分层金字塔结构，解决小麦叶片病害“局部病灶特征模糊（如早期微小锈孢子堆）、全局纹理建模效率低、相似病害区分难”的核心问题，最终在自建小麦叶片病害数据集（WPLDD）上实现99.93%的分类准确率，为小麦病害田间自动化诊断提供高效、可靠的技术方案。
 
 
 ## 2. HH-Former 核心创新点
@@ -164,7 +164,8 @@ hh-former-for-wheat-leaf-disease/
 论文处于投刊阶段，正式发表后将更新BibTeX引用格式，当前可临时引用：
 ```bibtex
 @article{hh_former_wheat_disease,
-  title={Hierarchical Hybrid Attention Transformer for Wheat Leaf Disease Classification},
+  title={
+VWLM: A Novel and High Accuracy Deep Learning model for Wheat Disease Identification },
   author={[作者姓名，待发表时补充]},
   journal={[期刊名称，待录用后补充]},
   year={2025},
